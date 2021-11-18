@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo6"
+    tools:context=".MainActivity6">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="BIOGRAFÌA"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="387dp"
+        android:layout_height="263dp"
+        android:gravity="center"
+        android:text="José Martín Cuevas Cobos (Guadalajara, Jalisco; 28 de septiembre de 1969), más conocido por su nombre artístico Pedro Fernández, es un cantante, actor, productor y compositor mexicano de música ranchera. Ha tomado su nombre y apellido de dos grandes figuras de la música mexicana, Pedro Infante y Vicente Fernández. Empezó su carrera internacional con la película La niña de la mochila azul (1979) y el álbum del mismo nombre.  Con el éxito de la canción y la película, continuó su ascenso a la fama con varios papeles en películas como Amigos, El oreja rajada, Mamá solita y La niña de la mochila azul 2, todo a la edad de 12 años. Además de las primeras películas, siguió teniendo éxito grabando canciones como «Guadalajara» y «La mugrosita»."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="346dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        app:srcCompat="@drawable/foto2" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:text="Atras"
+        app:backgroundTint="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+</androidx.constraintlayout.widget.ConstraintLayout>
